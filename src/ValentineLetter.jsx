@@ -57,6 +57,7 @@ export default function ValentineLetter() {
   };
 
   useEffect(() => {
+    // [1, 3, 5].includes(isNoClickedOneCounter)
     if (isNoClickedOneCounter === 1) {
       const showTimeout = setTimeout(() => setShowDisappointedCondition(true), 500);
       const hideTimeout = setTimeout(() => setShowDisappointedCondition(false), 50000);
