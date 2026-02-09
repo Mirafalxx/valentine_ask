@@ -1,8 +1,8 @@
 {
   "name": "valentine_ask",
   "homepage": "https://Mirafalxx.github.io/valentine_ask",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
