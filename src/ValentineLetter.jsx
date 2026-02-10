@@ -110,7 +110,7 @@ export default function ValentineLetter() {
             )}
             {isFinal && (
               <p id="final-text" className="final-text">
-                <strong>Свидание:</strong> Встречаемся в ресторане в 19:00. Нарядись красиво! 💖
+                <strong> Встречаемся в Москве 20 февраля. Нарядись красиво! 💖</strong>
               </p>
             )}
           </div>
