@@ -87,7 +87,7 @@ export default function ValentineLetter() {
       {!isEnvelopeOpen && (
         <div id="envelope-container" onClick={handleOpenEnvelope}>
           <img src={envelopeImg} alt="Envelope" id="envelope" />
-          <p>♡ Letter for You ♡</p>
+          <p>♡ Письмо для тебя ♡</p>
         </div>
       )}
 
