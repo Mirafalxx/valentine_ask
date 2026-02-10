@@ -12,7 +12,7 @@ export default function ValentineLetter() {
   const [isLetterOpen, setIsLetterOpen] = useState(false);
   const [isFinal, setIsFinal] = useState(false);
   const [showDisappointedCondition, setShowDisappointedCondition] = useState(false);
-  const [title, setTitle] = useState("Will you be my Valentine?");
+  const [title, setTitle] = useState("Будешь моей валентинкой?");
   const [catSrc, setCatSrc] = useState(catHeart);
 
   const noBtnRef = useRef(null);
@@ -60,7 +60,7 @@ export default function ValentineLetter() {
     // [1, 3, 5].includes(isNoClickedOneCounter)
     if (isNoClickedOneCounter === 1) {
       const showTimeout = setTimeout(() => setShowDisappointedCondition(true), 500);
-      const hideTimeout = setTimeout(() => setShowDisappointedCondition(false), 50000);
+      const hideTimeout = setTimeout(() => setShowDisappointedCondition(false), 5000);
 
       return () => {
         clearTimeout(showTimeout);
